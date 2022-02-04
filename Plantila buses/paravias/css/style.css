@@ -1,0 +1,143 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Vujahday+Script&display=swap");
+body {
+  background-color: white !important;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-title {
+  font-size: 1em;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+i {
+  font-size: 1.6em;
+
+}
+
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.hero img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.navbar.scrolled {
+  background-color: rgb(13,163,92) !important;
+  transition: 200ms linear;
+}
+
+.row .col-md {
+  margin: 20px 0px;
+  border-color: black;
+}
+
+#destacados img {
+  height: 250px;
+  object-fit: cover;
+}
+
+
+#btnUp{
+  position: fixed;
+  bottom: 20px;
+  right: -100px;
+  width: 40px;
+  color: rgb(13,163,92);
+  transition: 600ms linear;
+}
+
+#contenedor-btnUp{
+  background-color: rgb(13,163,92);
+}
+
+.navi-tem{
+  font-style: white;
+}
+
+hr{
+  color: black;
+}
+#btn-1{
+  align-items: center;
+  background-color:rgb(13,163,92);
+
+}
+
+.card-body{
+  background-color: whitesmoke;
+  border-color: black;
+}
+
+
+
+.parrafo{
+  
+  font-size: large;
+  color: black;
+}
+
+.float-end{
+  padding-right: 100px;
+
+}
+
+
+/* prueba*/
+
+#contenedor-iframe{
+  width: 100vw;
+  height:100vw ;
+}
+
+@media only screen and (max-width: 1024px) {
+  #navbar1 {
+    background-color: rgb(13,163,92);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #logo {
+    height: 40px;
+  }
+}
+
+/*
+@media only screen and (max-width: 420px) {
+
+  #inicio {
+    display:none
+  }
+
+  #inicio {
+    border-left:0;
+    margin: 0;
+  }
+}
+*/
+
+.col:hover{
+text-shadow: none !important;
+box-sizing: border-box !important;
+cursor: pointer !important;
+transition: all 0.3s ease !important;
+-webkit-transform: scale(1.1) !important;
+-ms-transform: scale(1.1) !important;
+transform: scale(1.1) !important;
+z-index: 1;
+}

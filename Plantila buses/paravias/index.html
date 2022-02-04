@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg" href="assets/img/logo1.png" />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!--JS-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/nav-scroll.js"></script>
+    <script src="js/btn-arriba.js"></script>
+    
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Buses Paravias</title>
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fs-5 text-white" id="navbar1">
+      <div class="container">
+        <a class="navbar-brand text-title" href="#">
+          <img id="logo"
+            src="assets/img/logo1.png"
+            width=""
+            height="60px"
+            
+            alt=""
+          />
+          
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item text-white">
+              <a class="nav-link text-white" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#quienes-somos">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Carrusel de imagenes-->
+    <div
+      id="inicio"
+      class="carousel slide carousel-fade hero"
+      data-bs-ride="carousel"
+    >
+    
+    
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#inicio"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#inicio"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      
+    </div>
+    <!--About Us-->
+    <div id="quienes-somos" class="container p-5 text-light">
+      <hr class="text-dark"/>
+      <h1 class="text-center text-dark">¿QUIENES SOMOS?</h1>      
+      <div class="row">
+        <div class="col-md text-dark">
+          <p class="parrafo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum
+          </p>
+          <button type="button" class="btn btn-primary w-100 mb-4" id="btn-1">
+            <i class="fa-solid fa-bus"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--Destacados-->
+
+    <div id="destacados" class="section p-5 text-light">
+      <hr class="text-dark"/>
+      <h1 class="text-center text-dark">DESTACADOS</h1>
+      <br>
+      <br>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 bg-dark rounded-circle" href="https://www.chilepasajes.cl/es/pasajes/la-serena">
+            <img src="assets/img/card1.jpg" class="card-img-top rounded-circle" alt="La serena" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-dark rounded-circle">
+            <img src="assets/img/card2.jpg" class="card-img-top rounded-circle" alt="..." />
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 bg-dark rounded-circle">
+            <img src="assets/img/card3.jpg" class="card-img-top rounded-circle" alt="..." />
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 bg-dark rounded-circle">
+            <img src="assets/img/card4.jpg" class="card-img-top rounded-circle" alt="..." />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Contacto-->
+    <div id="contacto" class="section p-5">
+      <hr class="text-dark"/>
+      <h1 class="text-center text-dark">CONTACTO</h1>
+    </div>
+
+    <!--Footer-->
+    <footer class="bg-dark text-white">
+      <div class="section p-5">
+        <div class="float-start">
+          <h1>Buses Paravias</h1>
+        </div>
+        <br />
+        <div class="float-end">
+          <i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-facebook-square"></i>
+        </div>
+        <br />
+      </div>
+    </footer>
+    <div id="contenedor-btnUp">
+      <a href="#inicio"><i class="fas fa-arrow-circle-up fa-4x" id="btnUp"></i></a>
+    </div>
+  </body>
+</html>

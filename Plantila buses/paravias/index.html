@@ -67,45 +67,22 @@
     </nav>
 
     <!--Carrusel de imagenes-->
-    <div
-      id="inicio"
-      class="carousel slide carousel-fade hero"
-      data-bs-ride="carousel"
-    >
-    
-    
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="..." />
+    <div id="travel-slider-overlay">
+      <div class="vertical-middle">
+        <div class="container clearfix">
+          <div class="tabs travel-organiser-tabs clearfix">
+            <ul class="tab-nav clearfix">
+              <li><a href="#tab-flights"><i class="icon-bus"></i>Viaja en Buses Paravias</a></li>
+            </ul>
+            <div class="tab-container">
+              <div class="tab-content clearfix" id="tab-flights">
+                <iframe frameborder="0" src="https://chilepasajes.cl/es/buses-paravias/buscador" data-attr-src="https://chilepasajes.cl/es/buses-paravias/buscador"  width="100%" height="700" scrolling="no"></iframe>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="..." />
-        </div>
-        
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#inicio"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#inicio"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-      
-    </div>
+     </div>   
     <!--About Us-->
     <div id="quienes-somos" class="container p-5 text-light">
       <hr class="text-dark"/>
@@ -137,8 +114,10 @@
       <br>
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
-          <div class="card h-100 bg-dark rounded-circle" href="https://www.chilepasajes.cl/es/pasajes/la-serena">
-            <img src="assets/img/card1.jpg" class="card-img-top rounded-circle" alt="La serena" />
+          <div class="card h-100 bg-dark rounded-circle">
+            <a href="https://www.chilepasajes.cl/es/pasajes/la-serena">
+              <img src="assets/img/card1.jpg" class="card-img-top rounded-circle" alt="La serena" />
+            </a>
           </div>
         </div>
         <div class="col">

@@ -24,7 +24,7 @@
   </head>
   <body>
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fs-5 text-white" id="navbar1">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar1">
       <div class="container">
         <a class="navbar-brand text-title" href="#">
           <img id="logo"
@@ -66,23 +66,16 @@
       </div>
     </nav>
 
-    <!--Carrusel de imagenes-->
-    <div id="travel-slider-overlay">
-      <div class="vertical-middle">
-        <div class="container clearfix">
-          <div class="tabs travel-organiser-tabs clearfix">
-            <ul class="tab-nav clearfix">
-              <li><a href="#tab-flights"><i class="icon-bus"></i>Viaja en Buses Paravias</a></li>
-            </ul>
-            <div class="tab-container">
-              <div class="tab-content clearfix" id="tab-flights">
-                <iframe frameborder="0" src="https://chilepasajes.cl/es/buses-paravias/buscador" data-attr-src="https://chilepasajes.cl/es/buses-paravias/buscador"  width="100%" height="700" scrolling="no"></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     </div>   
+    <!--Iframe-->
+     <div class="iframe-container" id="inicio">
+     <iframe 
+       frameborder="0"
+       src="https://chilepasajes.cl/es/buses-paravias/buscador"
+       data-attr-src="https://chilepasajes.cl/es/buses-paravias/buscador"
+       width="100%"
+       scrolling="no">
+     </iframe>
+     </div>
     <!--About Us-->
     <div id="quienes-somos" class="container p-5 text-light">
       <hr class="text-dark"/>

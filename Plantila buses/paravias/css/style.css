@@ -99,10 +99,12 @@ hr{
 
 
 /* prueba*/
+.iframe-container{
+  height:100vh ;
+}
 
-#contenedor-iframe{
-  width: 100vw;
-  height:100vw ;
+.iframe-container iframe{
+  height:100%;
 }
 
 @media only screen and (max-width: 1024px) {
